@@ -158,7 +158,17 @@ app_license = "MIT"
 # -----------------------------------------------------------
 
 # ignore_links_on_delete = ["Communication", "ToDo"]
+fixtures = [
 
+    {"dt": "Custom Field", "filters": [
+        [
+            "name", "in", [
+				"Target Detail-brand"
+            ]
+        ]
+    ]},
+	
+]
 
 # User Data Protection
 # --------------------
